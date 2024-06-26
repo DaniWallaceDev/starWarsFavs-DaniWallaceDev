@@ -15,6 +15,7 @@ export const Planets = () => {
 
 	return (
         <div className="container-fluid">
+            <h1 className="text-center fw-bold">Planets</h1>
             <div className="row">
                 {store.planets.map((planet,index) =>
                 <div className="col-3" key={index}>

@@ -1,3 +1,7 @@
 /* 
     General Styles
 */
+.logo {
+    width: 7rem;
+    height: fit-content;
+}

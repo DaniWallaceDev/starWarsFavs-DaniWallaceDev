@@ -15,6 +15,7 @@ export const Vehicles = () => {
 
 	return (
         <div className="container-fluid">
+            <h1 className="text-center fw-bold">Vehicles</h1>
             <div className="row">
                 {store.vehicles.map((vehicle,index) =>
                 <div className="col-3" key={index}>

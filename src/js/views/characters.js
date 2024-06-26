@@ -15,6 +15,7 @@ export const Characters = () => {
 
 	return (
         <div className="container-fluid">
+            <h1 className="text-center fw-bold">Characters</h1>
             <div className="row">
                 {store.characters.map((character,index) =>
                 <div className="col-3" key={index}>
